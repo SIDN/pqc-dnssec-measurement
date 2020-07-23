@@ -1,0 +1,7 @@
+## Rainbow1a Measurement Setup
+
+1. Copy `pqc_dnssec_speed_test_rainbow.c` into `Rainbow/rainbow/Reference_Implementation`
+2. Copy the `Makefile` into `Rainbow/rainbow/Reference_Implementation`. This will replace the existing Makefile with a slightly modified one.
+3. Run `make pqc_dnssec_speedtest`. This should compile the test script, giving you `pqc_dnssec_speedtest` as output.
+4. Execute `pqc_dnssec_speedtest` to run the measurement
+

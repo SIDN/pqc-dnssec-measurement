@@ -1,0 +1,8 @@
+## RedGeMSS128 Measurement Setup
+
+1. Copy `pqc_dnssec_speed_test_gemss.c` into `GeMSS/GeMSS-Round2/Optimized_Implementation/sign/RedGeMSS128/src`
+2. Copy the `Makefile` into `GeMSS/GeMSS-Round2/Optimized_Implementation/sign/RedGeMSS128`. This will replace the existing Makefile with a modified one.
+3. Change paths in Makefile to point to the required libraries.
+4. Run `make pqc_dnssec_speedtest`. This should compile the test script, giving you `pqc_dnssec_speedtest` as output.
+5. Execute `pqc_dnssec_speedtest` to run the measurement
+

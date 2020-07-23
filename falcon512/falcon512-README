@@ -1,0 +1,7 @@
+## FALCON 512 Measurement Setup
+
+1. Copy `pqc_dnssec_speed_test_falcon.c` into `Falcon-Round2/Optimized_Implemention/falcon512`
+2. Copy the `Makefile` into `Falcon-Round2/Optimized_Implemention/falcon512`
+3. Run `make`. This should compile the test script, giving you `pqc_dnssec_speedtest` as output
+4. Execute `pqc_dnssec_speedtest` to run the measurement
+
