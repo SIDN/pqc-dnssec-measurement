@@ -1,6 +1,7 @@
 # Custom Performance Test
 
-This code accompanies a research paper currently under review.
+This code accompanies the paper *Retrofitting Post-Quantum Cryptography in Internet Protocols: A Case Study of DNSSEC*.
+The paper is published in Computer Communication Review (CCR), Volume 50, Issue 4.
 In our paper, we discuss to what extend we can apply post-quantum signing algorithms, currently assessed in the NIST competition, to DNSSEC.
 
 The code in this repository runs a very basic speed test for three quantum-safe algorithms. 
